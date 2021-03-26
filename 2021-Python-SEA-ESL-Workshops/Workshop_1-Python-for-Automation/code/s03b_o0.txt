@@ -1,0 +1,7 @@
+Output:
+Hello world!
+20
+3.14
+True
+[100, 80, 75, 60, 98]
+('red', 'green', 'blue')
