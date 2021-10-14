@@ -10,7 +10,7 @@ class s10a_Wake_Up_Tello(Scene):
 			Text(x) for x in (
 				"The drone",
 				"- has a front camera.",
-				"- spawns a wireness network.",
+				"- spawns a wireless network.",
 				"- broadcasts an SSID.",
 			)
 		]).scale(0.75)
