@@ -1,0 +1,64 @@
+-
+-
+Made possible by SEA x ENGRSL.
+Intro, big picture, why Py, logic, conditionals, loops, functions.
+Goal: learn programming, fly drones.
+Day 1: basic fundamentals.
+Day 2: more Python, intro to Tello.
+Day 3: more Python, more drones.
+Starts with people.
+We want stuff done.
+We have to work for it.
+-
+Computers do work.
+Computers understand binary.
+We write source.
+Syntax - the way we write things; semantics - what they mean.
+Simple and intuitive.
+Low learning curve.
+Interpreted.
+Like a piano.
+Python 3.7+.
+Logic activity.
+Logic = fundamental basis.
+Preheat oven to 175 C.
+Cream together butter and sugar.
+Beat in eggs.
+Stir in vanilla and baking soda.
+Stir in flour and chocolate chips.
+Drop by spoonfuls into baking sheet.
+Bake for 15 minutes.
+This is an example of a linear program.
+Go to the first battery.
+If it is powered on, go to step 3. Else, step 4.
+Record the charge and go to step 5.
+Turn the battery on and go to step 5.
+If there is a next battery, repeat steps 2-5 for it.
+This is an example of a non-linear program.
+Control flow structures, logical structures.
+If then.
+Else.
+Else if.
+Else if.
+Conditionals intuition.
+Conditionals demo.
+Conditionals activity.
+What if we want to do something N many times?
+There has to be an easier way!
+While.
+For x in y.
+For x in range(N).
+Loops intuition.
+Loops demo.
+Loops activity.
+What if there are chunks of code that we have to use in multiple places?
+We can define it as a function!
+We'll talk more about this in-depth next week, also this code is incomplete.
+Functions intuition.
+Functions demo.
+Functions activity.
+Puzzles activity.
+Let's wake up Tello!
+Drone has front camera, spawns wireless network, broadcasts SSID.
+API abstracts, uses OOP, makes life easier.
+Wake up, Tello! activity.

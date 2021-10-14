@@ -6,7 +6,7 @@ import time
 from termcolor import colored
 
 # Set this to true if you want to find checkpoints.
-DEFINEMODE = True
+DEFINEMODE = False
 
 # Playback speed.
 SPEED = 2
@@ -29,6 +29,9 @@ def main():
 
 	# Checkpoints of n to pause at.
 	checkpoints = [int(n.strip("\n")) for n in open("./checkpoints.txt", "r").readlines()]
+
+	# Annotations.
+	annotations = [line.strip("\n") for line in open("./annotations.txt", "r").readlines()]
 
 	# Paused switch.
 	paused = False
@@ -55,6 +58,7 @@ def main():
 		if n in checkpoints:
 			if not paused:
 				print(f":: Hit breakpoint {checkpoints.index(n)}.")
+				print(f"!! Note: {annotations[checkpoints.index(n)]}")
 				print(colored(":: Pausing.", "red"))
 				paused = True
 
@@ -92,7 +96,8 @@ def main():
 
 			for i in range(n-1, -1, -1):
 
-				print(colored(f"=> i={i}", "red"))
+				if DEFINEMODE:
+					print(colored(f"=> i={i}", "red"))
 
 				if i in checkpoints:
 
