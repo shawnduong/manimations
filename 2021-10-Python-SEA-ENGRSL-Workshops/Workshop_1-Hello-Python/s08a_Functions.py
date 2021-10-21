@@ -60,7 +60,7 @@ class s08a_Functions(Scene):
 
 		actors.append(remarks[0])
 		self.add(remarks[0])
-		self.play(ApplyMethod(code[0].shift, 2*LEFT), ApplyMethod(remarks[0].shift, 2*RIGHT));
+		self.play(ApplyMethod(code[0].shift, 2*LEFT), ApplyMethod(remarks[0].shift, 2*RIGHT))
 		self.wait(1)
 
 		code[1].move_to(code[0], UP+LEFT)
